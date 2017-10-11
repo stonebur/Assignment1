@@ -1,0 +1,52 @@
+a.)
+$ git push
+Counting objects: 7, doneDelta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 911 bytes | 455.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/stonebur/Assignment1.git
+fbdbe93..444d798  master -> master
+
+
+b.)
+9 commits 
+git log
+
+
+c.)
+Author: irlabuser <irlabuser@irlabvm>
+Date:   Wed Sep 27 16:31:42 2017 -0500
+
+git log .gitignore
+
+
+d.)
+cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+
+
+36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+
+e.)
+Branches are used to stem from the master (default) branch, so that developementcan occur in isolation, and changes can then be merged back to the master upon completion. Branches also allow multiple contributors to develop outside of the master branch, allowing for a more organized environment. You can see all of the branches from master, indicating various features being worked on by different developers.
+
+
+f.)
+git log shows the repository history
+git status shows changes that have yet to be committed
+
+
+g.)
+git log Weapon.h
+
+
+h.)
+git log --grep=file
+
+i.)
+I) Inheritance inolves a subclass inheriting the properties of a superclass. Represents the "Is-A" relationship. 
+II) Polymorphism involves the creation of an interface capable of handling different data forms. For example, a superclass will have varying subclasses, each with different member data. The class as a whole needs to provide functionality capable of handling all class types to be polymorphic (i.e. a single print() function will print each subclass object appropriately, regardless of the type of calling object).
+III) Encapsulation is keeping a class' data and functions together, kept as private member data, so they are hidden from the user. Access to the class, including the constructor, are usually handled through other public member functions. 
+
+
